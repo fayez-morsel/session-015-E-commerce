@@ -418,7 +418,7 @@ function renderCart() {
                     <div class="quantity-display">${item.quantity}</div>
                     <button class="quantity-btn" onclick="decreaseQuantity('${
                       item.id
-                    }')" title="Decrease quantity">−</button>
+                    }')" title="Decrease quantity">-</button>
                     <button class="remove-item-btn" onclick="removeItemFromCart('${
                       item.id
                     }')" title="Remove item">Remove</button>
